@@ -86,7 +86,7 @@ public class HotelManagementController {
         //Note that newFacilities can also have duplicate facilities possible
         Hotel h = service.getHotelWithFacilities(newFacilities, hotelName);
 
-        return null;
+        return h;
     }
 
 }
